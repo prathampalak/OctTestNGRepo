@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Salesforce(failed)">
+    <classes>
+      <class name="com.training.tests.UserMenuTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="SelectUserMenu5"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.training.tests.UserMenuTest -->
+    </classes>
+  </test> <!-- Salesforce(failed) -->
+</suite> <!-- Failed suite [Suite] -->
