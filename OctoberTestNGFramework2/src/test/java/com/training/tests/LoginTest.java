@@ -34,6 +34,7 @@ public class LoginTest extends BaseTest{
 		driver= getDriver(browser);
 		url = common.getproperty("url");
 		driver.get(url);
+		Log.info("URL==>"+url);
 		username = common.getproperty("name");
 		password = common.getproperty("password");
 		wrongusername=common.getproperty("wrongname");
