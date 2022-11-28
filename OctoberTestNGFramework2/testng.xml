@@ -7,7 +7,7 @@
 </listeners>
   <test name="Salesforce">
   <classes>
-     <class name="com.training.tests.AccountTest">
+     <class name="com.training.tests.LoginTest">
     
       </class>
     </classes>
